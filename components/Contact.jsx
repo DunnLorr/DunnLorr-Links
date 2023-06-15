@@ -35,10 +35,11 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">DunnLorr</h2>
-                <p>Full-Stack Developer</p>
+                <p>Full-Stack Developer and Streamer</p>
                 <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for freelance and full-time positions in web
+                  development. I am also available for collaborations in
+                  streaming. Contact me and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -117,48 +118,49 @@ const Contact = () => {
                 method="POST"
                 encType="multipart/form-data"
               >
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
-                      name="name"
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
-                      Phone Number
-                    </label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
-                      name="phone"
-                    />
-                  </div>
+                <div className="flex flex-col">
+                  <label for="name" className="uppercase text-sm py-2">
+                    Name
+                  </label>
+                  <input
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+                    type="text"
+                    name="name"
+                    id="name"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label for="email" className="uppercase text-sm py-2">
+                    Email
+                  </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                     type="email"
                     name="email"
+                    id="email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label for="subject" className="uppercase text-sm py-2">
+                    Subject
+                  </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                     type="text"
                     name="subject"
+                    id="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label for="message" className="uppercase text-sm py-2">
+                    Message
+                  </label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 text-black"
                     rows="10"
                     name="message"
+                    id="message"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
