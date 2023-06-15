@@ -152,32 +152,67 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaTwitch />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaTwitter />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaInstagram />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaTiktok />
-                </div>
+                <a
+                  href="https://www.twitch.tv/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaTwitch />
+                  </div>
+                </a>
+                <a
+                  href="https://www.twitter.com/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaTwitter />
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaInstagram />
+                  </div>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaTiktok />
+                  </div>
+                </a>
               </div>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+                <a
+                  href="https://www.github.com/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
+                <Link href="/#contact">
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                <a
+                  href="https://www.linkedin.com/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

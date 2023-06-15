@@ -3,7 +3,14 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTiktok,
+  FaTwitch,
+  FaTwitter,
+} from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
 
@@ -38,6 +45,44 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
+                    href="https://www.twitch.tv/dunnlorr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaTwitch />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.twitter.com/dunnlorr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaTwitter />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/dunnlorr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaInstagram />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@dunnlorr"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaTiktok />
+                    </div>
+                  </a>
+                </div>
+                <div className="flex items-center justify-between py-4">
+                  <a
                     href="https://www.linkedin.com/in/dunnlorr/"
                     target="_blank"
                     rel="noreferrer"
@@ -59,11 +104,6 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                  <Link href="/resume">
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <BsFillPersonLinesFill />
-                    </div>
-                  </Link>
                 </div>
               </div>
             </div>

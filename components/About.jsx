@@ -15,7 +15,7 @@ const About = () => {
           <p className="py-2 text-gray-600 dark:text-slate-300">
             Hello, I'm DunnLorr, a passionate web developer with a knack for
             transforming ideas into dynamic and functional online experiences.
-            With 5 of experience in the field, I have honed my skills in
+            With 5 years of experience in the field, I have honed my skills in
             crafting visually appealing, user-friendly websites that effectively
             communicate the desired message.
           </p>
