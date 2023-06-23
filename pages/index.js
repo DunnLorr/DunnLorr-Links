@@ -7,8 +7,6 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 
-import Favicon from "../public/Mask.ico"
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
