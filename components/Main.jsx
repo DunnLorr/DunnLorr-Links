@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaInstagram,
   FaKickstarter,
+  FaKickstarterK,
   FaLinkedinIn,
   FaTiktok,
   FaTwitch,
@@ -95,7 +96,7 @@ const Main = () => {
                 title="Kick"
                 className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               >
-                <FaKickstarter />
+                <FaKickstarterK />
               </div>
             </a>
             <a

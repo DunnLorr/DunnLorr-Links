@@ -6,7 +6,7 @@ import {
   FaDiscord,
   FaGithub,
   FaInstagram,
-  FaKickstarter,
+  FaKickstarterK,
   FaLinkedinIn,
   FaTiktok,
   FaTwitch,
@@ -213,7 +213,7 @@ const Navbar = () => {
                     title="Kick"
                     className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
                   >
-                    <FaKickstarter />
+                    <FaKickstarterK />
                   </div>
                 </a>
                 <a
