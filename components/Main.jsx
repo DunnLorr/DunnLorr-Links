@@ -3,8 +3,10 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {
+  FaDiscord,
   FaGithub,
   FaInstagram,
+  FaKickstarter,
   FaLinkedinIn,
   FaTiktok,
   FaTwitch,
@@ -51,7 +53,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="Twitter"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <FaTwitter />
               </div>
             </a>
@@ -60,7 +65,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="Instagram"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <FaInstagram />
               </div>
             </a>
@@ -69,23 +77,44 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="TikTok"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <FaTiktok />
               </div>
             </a>
           </div>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
+              href="https://kick.com/dunnlorr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div
+                title="Kick"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                <FaKickstarter />
+              </div>
+            </a>
+            <a
               href="https://github.com/dunnlorr"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="Github"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <FaGithub />
               </div>
             </a>
             <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="Contact Me"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <AiOutlineMail />
               </div>
             </Link>
@@ -94,8 +123,25 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div
+                title="LinkedIn"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
                 <FaLinkedinIn />
+              </div>
+            </a>
+          </div>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <a
+              href="https://discord.gg/ejWSMAHz2u"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div
+                title="Join the Discord!"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              >
+                <FaDiscord />
               </div>
             </a>
           </div>

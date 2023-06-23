@@ -3,8 +3,10 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import {
+  FaDiscord,
   FaGithub,
   FaInstagram,
+  FaKickstarter,
   FaLinkedinIn,
   FaTiktok,
   FaTwitch,
@@ -93,7 +95,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/Mask.jpg"
+                src={NavLogo}
                 alt="Dunnlorr Mask"
                 width="87"
                 height="87"
@@ -157,7 +159,10 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="Twitch"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaTwitch />
                   </div>
                 </a>
@@ -166,7 +171,10 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="Twitter"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaTwitter />
                   </div>
                 </a>
@@ -175,7 +183,10 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="Instagram"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaInstagram />
                   </div>
                 </a>
@@ -184,33 +195,71 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="TikTok"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaTiktok />
                   </div>
                 </a>
               </div>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
+                  href="https://www.kick.com/dunnlorr/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div
+                    title="Kick"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
+                    <FaKickstarter />
+                  </div>
+                </a>
+                <a
                   href="https://www.github.com/dunnlorr/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="Github"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="Contact Me"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <a
-                  href="https://www.linkedin.com/dunnlorr/"
+                  href="https://www.linkedin.com/in/dunnlorr/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <div
+                    title="LinkedIn"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
                     <FaLinkedinIn />
+                  </div>
+                </a>
+              </div>
+              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                <a
+                  href="https://discord.gg/ejWSMAHz2u"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div
+                    title="Join the Discord!"
+                    className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-3 cursor-pointer hover:scale-125 ease-in duration-300"
+                  >
+                    <FaDiscord />
                   </div>
                 </a>
               </div>
