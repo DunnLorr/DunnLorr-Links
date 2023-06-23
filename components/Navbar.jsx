@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import NavLogo from "../public/Mask.jpg";
+import NavLogo from "assets/mask.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
