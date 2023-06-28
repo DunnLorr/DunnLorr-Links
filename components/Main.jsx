@@ -44,7 +44,7 @@ const Main = () => {
             >
               <div
                 title="Twitch"
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
               >
                 <FaTwitch />
               </div>
@@ -94,7 +94,7 @@ const Main = () => {
             >
               <div
                 title="Kick"
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
               >
                 <FaKickstarterK />
               </div>
@@ -140,7 +140,7 @@ const Main = () => {
             >
               <div
                 title="Join the Discord!"
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
               >
                 <FaDiscord />
               </div>

@@ -4,8 +4,10 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import {
+  FaDiscord,
   FaGithub,
   FaInstagram,
+  FaKickstarterK,
   FaLinkedinIn,
   FaTiktok,
   FaTwitch,
@@ -50,7 +52,10 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="Twitch"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
+                    >
                       <FaTwitch />
                     </div>
                   </a>
@@ -59,7 +64,10 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="Twitter"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
                       <FaTwitter />
                     </div>
                   </a>
@@ -68,7 +76,10 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="Instagram"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
                       <FaInstagram />
                     </div>
                   </a>
@@ -77,18 +88,36 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="TikTok"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
                       <FaTiktok />
                     </div>
                   </a>
                 </div>
                 <div className="flex items-center justify-between py-4">
                   <a
+                    href="https://www.kick.com/dunnlorr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div
+                      title="Kick"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
+                    >
+                      <FaKickstarterK />
+                    </div>
+                  </a>
+                  <a
                     href="https://www.linkedin.com/in/dunnlorr/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="LinkedIn"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -97,14 +126,25 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div
+                      title="Github"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
+                  <a
+                    href="https://discord.gg/ejWSMAHz2u"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div
+                      title="Join the Discord!"
+                      className="rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-600 p-6 cursor-pointer hover:scale-125 ease-in duration-300"
+                    >
+                      <FaDiscord />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
