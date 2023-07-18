@@ -34,6 +34,8 @@ const Main = () => {
           </h1>
           <p className="py-4 text-gray-600 dark:text-slate-300 sm:max-w-[70%] m-auto">
             I’m focused on building an amazing community for my friends and I.
+            Want to be one of those friends? Come join me on one or all of the
+            links below!
           </p>
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
