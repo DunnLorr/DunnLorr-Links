@@ -5,6 +5,7 @@ import Main from "@/components/Main";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,21 @@ export default function Home() {
       <About />
       <Skills />
       <Contact />
+
+      <div className="container">
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-G86EMN7ME6"/>
+        <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-G86EMN7ME6');
+          `}
+        </Script>
+      </div>
+      
     </>
   );
 }
